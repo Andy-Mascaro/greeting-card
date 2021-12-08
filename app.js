@@ -1,5 +1,9 @@
 //Message
-const messageInput =
+const messageInput = document.getElementById('background-select');
+const nameHeader = document.getElementById('background-header');
+backgroundInput.addEventListener('input', () => {
+  backgroundHeader.textContent = nameInput.value;});
+
 
 //Background
 const backgroundSelect = document.getElementById('background-select');   
