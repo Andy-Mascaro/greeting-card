@@ -17,11 +17,11 @@ descriptionTextarea.addEventListener('input', () => {
 descriptionDisplay.textContent = descriptionTextarea.value;
 
   //Export
-const exportButton = document.getElementById('export-button');
-exportButton.addEventListener('click', async () => {
-const dataUrl = await domtoimage.toPng(character);
-const link = document.createElement('a');
-link.download = nameInput.value + '.png';
-link.href = dataUrl;
-link.click();
-});
+//const exportButton = document.getElementById('export-button');
+//exportButton.addEventListener('click', async () => {
+//const dataUrl = await domtoimage.toPng(character);
+//const link = document.createElement('a');
+//link.download = nameInput.value + '.png';
+//link.href = dataUrl;
+//link.click();
+//});
