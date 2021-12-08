@@ -2,7 +2,7 @@
 const messageInput = document.getElementById('background-select');
 const nameHeader = document.getElementById('background-header');
 backgroundInput.addEventListener('input', () => {
-  backgroundHeader.textContent = nameInput.value;});
+backgroundHeader.textContent = backgroundInput.value;});
 
 
 //Background
@@ -21,7 +21,8 @@ descriptionDisplay.textContent = descriptionTextarea.value;
 //exportButton.addEventListener('click', async () => {
 //const dataUrl = await domtoimage.toPng(character);
 //const link = document.createElement('a');
-//link.download = nameInput.value + '.png';
+//link.download = backgroundInput.value + '.png';
 //link.href = dataUrl;
 //link.click();
-//});
+//
+});
